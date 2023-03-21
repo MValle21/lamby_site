@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-gem 'rails', '~> 5.2.2'
+gem 'rails', '~> 6.1.0'
 gem 'dotenv-rails'
 gem 'lamby', github: 'customink/lamby', branch: 'master', require: false
 gem 'redcarpet'
